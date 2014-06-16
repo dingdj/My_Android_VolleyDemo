@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ddj.volleydemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ddj.volleydemo.InitActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ddj.volleydemo.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ddj.volleydemo.PostRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.ddj.volleydemo.JsonRequestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.ddj.volleydemo.ImageRequestAcitvity"
+            android:label="@string/app_name" >
+        </activity>  
+        <activity
+            android:name="com.ddj.volleydemo.ImageLoaderActivity"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity
+            android:name="com.ddj.volleydemo.NetworkImageViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.ddj.volleydemo.GsonRequestActivity"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity
+            android:name="com.ddj.volleydemo.XmlRequestActivity"
+            android:label="@string/app_name" >
+        </activity>  
+    </application>
+
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
